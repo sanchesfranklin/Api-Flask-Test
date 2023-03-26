@@ -6,7 +6,7 @@ class TarefaSchema(ma.SQLAlchemySchema):
     class Meta:
         model = tarefa_model.Tarefa
         fields = ("id", "titulo", "descricao", "data_expiracao")
-    
+
     titulo = fields.String(required=True)
     descricao = fields.String(required=True)
     data_expiracao = fields.Date(required=True)
