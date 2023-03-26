@@ -1,0 +1,12 @@
+flask
+sqlalchemy
+mysqlclient
+Flask-RESTful
+Flask-Migrate
+flask-marshmallow
+marshmallow-sqlalchemy
+
+
+
+
+$env:FLASK_APP = "api.py"
